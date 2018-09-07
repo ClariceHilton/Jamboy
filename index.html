@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Jas Doyle Pitt</title>
+  <meta name="description" content="Jas Doyle Pitt">
+  <meta name="author" content="Clarice Hilton">
+
+  <link rel="stylesheet" href="stylesheet.css">
+  <!--<link rel="stylesheet" href="css/flexboxgrid.min.css" type="text/css">-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="javascript/javascript.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.6.0/d3.min.js"></script>
+  <script src="bubblechart_graph.js"></script>
+
+
+</head>
+<script>
+    d3.csv('medium_january.csv', function(error, data) {
+      if (error) {
+          console.error('Error getting or parsing the data.');
+          throw error;
+      }
+      var chart = bubbleChart().width(600).height(400);
+      // selection.datum() returns the bound datum for the first element in the selection and doesn't join the specified array of data with the selected elements
+      d3.select('#chart').datum(data).call(chart);
+    });
+</script>
+<body>
+  <style>
+
+</style>
+</body>
+
+</html>

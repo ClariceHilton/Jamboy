@@ -1,0 +1,47 @@
+/*
+https://css-tricks.com/working-with-shapes-in-web-design/#shapes-transform-rotate
+https://codepen.io/noahblon/pen/pjvPPN
+https://codepen.io/rachelandrew/pen/dqNeJm
+https://www.smashingmagazine.com/2018/09/css-shapes/
+https://css-tricks.com/almanac/properties/s/shape-outside/
+https://www.sarasoueidan.com/blog/css-shapes/
+https://css-tricks.com/forums/topic/css-responsive-circles/
+https://vestride.github.io/Shuffle/compound-filters
+*/
+/* Shape outside experiment 1*/
+/*.circle{
+   float: left;
+    background-image:url("yourImage.png");
+    width:50%;
+    shape-outside: circle(50%);
+    border:2px solid #000;
+    box-shadow:0 0 10px #000;
+  }
+
+  .circle:after{
+    content:"";
+    padding-bottom:100%;
+    display:block;
+  }*/
+/*Shape oustide experiment 2 */
+body {
+  font: 1.2em/1.3 Helvetica, arial, sans-serif;
+}
+
+.content {
+  max-width: 100%;
+  margin: 20px auto;
+}
+
+.circle {
+  content: "";
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  padding: 20px;
+  border: 10px solid #FC466B;
+ background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+  float: left;
+  shape-outside: circle(50%) ;
+  clip-path: circle(50%);
+}
