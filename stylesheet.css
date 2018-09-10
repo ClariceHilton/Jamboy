@@ -44,19 +44,55 @@ https://vestride.github.io/Shuffle/compound-filters
 }*/
 #julianknxxcl {
   background-image: url("JulianKnxxCL.png");
-  background-size: contain;
 }
-
+#rheaNight {
+  background-image: url("RHEAinthenight.png");
+}
+#EfuaSmiles{
+  background-image: url("EfuaCrumbles.jpg");
+}
+#BusyIngs {
+  background-image: url("RobynBusyIngs.png");
+}
+#RoseHips {
+  background-image: url("RoseHips.png");
+}
 /* Shape inside */
 .inner-circle {
-  background: #385a94;
   border-radius: 50%;
   width: 17vw;
   height: 17vw;
   margin: 1.5vw;
   float: left;
+  background-size: contain;
 }
+.turquoise-layer {
+  background-color: rgba(94, 240, 240, 0.5);
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+}
+.pink-layer {
+  background-color: rgba(210, 73, 143, 0.5);
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+}
+div.turquoise-layer:hover {
+  opacity : 0;
 
+}
+div.pink-layer:hover {
+  opacity : 0;
+
+}
+div.inner-circle:hover{
+  width: 18vw;
+  height: 18vw;
+  margin: 0.7vw;
+}
 /* index css*/
 body,html{min-height:200%;
   margin:0;
