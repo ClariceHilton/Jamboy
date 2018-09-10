@@ -25,9 +25,6 @@ https://vestride.github.io/Shuffle/compound-filters
     display:block;
   }*/
 /*Shape oustide experiment 2
-body {
-  font: 1.2em/1.3 Helvetica, arial, sans-serif;
-}
 
 .content {
   max-width: 100%;
@@ -36,17 +33,30 @@ body {
 
 .circle {
   content: "";
-  width: 150px;
-  height: 150px;
-  margin: 20px;
-  padding: 20px;
+  width: 16vw;
+  height: 16vw;
+  margin: 2vw;
   border: 10px solid #FC466B;
- background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+
   float: left;
   shape-outside: circle(50%) ;
   clip-path: circle(50%);
+}*/
+#julianknxxcl {
+  background-image: url("JulianKnxxCL.png");
+  background-size: contain;
 }
-*/
+
+/* Shape inside */
+.inner-circle {
+  background: #385a94;
+  border-radius: 50%;
+  width: 17vw;
+  height: 17vw;
+  margin: 1.5vw;
+  float: left;
+}
+
 /* index css*/
 body,html{min-height:200%;
   margin:0;
