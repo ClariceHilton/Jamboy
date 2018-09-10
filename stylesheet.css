@@ -54,9 +54,10 @@ body,html{min-height:200%;
   overflow: scroll;
 }
 .row {
-    background-color: #ED3D96;
+    background: url('background.png');
     opacity: 50%;
     z-index: 1000;
+    background-size:cover;
 }
 img#logo {
   width: 70%;
