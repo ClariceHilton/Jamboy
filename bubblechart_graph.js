@@ -24,7 +24,7 @@
  * var chart = bubbleChart(); // instantiate the chart
  *
  * // update settings
- * chart.width(850).height(850).minRadius(7).maxRadius(55).forceApart(-170);
+ * chart.width(100%).height(100%).minRadius(7).maxRadius(55).forceApart(-170);
  *
  * // example of chaining
  * chart.columnForColors("Sex").columnForRadius("BirthCount");
