@@ -24,7 +24,7 @@
  * var chart = bubbleChart(); // instantiate the chart
  *
  * // update settings
- * chart.width(850).height(850).minRadius(7).maxRadius(55).forceApart(-170);
+ * chart.width(100%).height(100%).minRadius(7).maxRadius(100).forceApart(-170);
  *
  * // example of chaining
  * chart.columnForColors("Sex").columnForRadius("BirthCount");
@@ -80,7 +80,7 @@ function bubbleChart() {
 		.style("border-radius", "6px")
 		.style("text-align", "center")
 		.style("font-family", "monospace")
-		.style("width", "400px")
+		.style("width", "100%")
 		.text("");
 
 
@@ -205,7 +205,7 @@ function bubbleChart() {
 	 * Get/set the height of the chart
 	 * Use 'chart.width' to get or set.
 	 * @example
-	 * chart.columnForColors(960);	// Sets the width of the SVG to 960
+	 * chart.columnForColors(100%);	// Sets the width of the SVG to 960
 	 * chart.columnForColors();	// returns 960
 	 *
 	 * @public
@@ -224,7 +224,7 @@ function bubbleChart() {
 	 * Get/set the height of the chart.
 	 * Use 'chart.height' to get or set.
 	 * @example
-	 * chart.height(960);	// Sets the height of the SVG to 960
+	 * chart.height(100%);	// Sets the height of the SVG to 960
 	 * chart.height();		// returns 960
 	 *
 	 * @public
