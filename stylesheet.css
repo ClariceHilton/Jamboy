@@ -64,8 +64,8 @@ img#logo {
     left: 120px;
     width: 70%;*/
 
-    -webkit-transition: -webkit-transform 1.8s ease-in-out;
-          transition:         transform 1.8s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+      transition:all .2s ease-inout;
 }
 
 [data-aos="logo-anim"] {
@@ -73,19 +73,20 @@ img#logo {
   z-index: 1;
   left: 15%;
   top: 40%;
-   transition-property: transform, transition;
-   transition: bottom 2s;
+   transition-property: all;
+   -webkit-transition: all 1s ease-in-out;
+     transition:all .2s ease-inout;
 }
 
 [data-aos="logo-anim"].aos-animate {
 
  position: fixed;
- bottom: 0;
+ right: 0;
+ left: 60%;
  width: 100%;
- left: 0;
- top: auto;
- -webkit-transform: scale(0.5) rotate(360deg) translateX(45%);
- transform: scale(0.5) rotate(360deg) translateX(45%);
+ align-self: center;
+ -webkit-transform: scale(0.3) rotate(270deg);
+ transform: scale(0.3) rotate(270deg);
 
 }
 /* anchor which triggers animation*/
@@ -100,54 +101,70 @@ img#logo {
 
 /* Shape inside */
 .inner-circle {
+  text-align: center;
   border-radius: 50%;
-  width: 30vw;
-  height: 30vw;
-  margin: 1.6vw;
   float: left;
+  width: 27vw;
+  height: 27vw;
+  margin: 1.6vw;
   background-size: contain;
   -webkit-transition: 0.1s ease-out;
    -moz-transition: 0.1s ease-out;
    -o-transition: 0.1s ease-out;
 }
+
 div.inner-circle:hover{
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
 }
-
-.row {
-    background: url('Memariani.png');
-    opacity: 50%;
-    z-index: 1000;
-    background-size:cover;
+.inner-circle:hover .info{
+display: block;
 }
 
-
-.top-image {
-
-  height: 50vh;
-  position: absolute;
+#wrapper {
+  background-image: url(TwistyFace.jpg);
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  width: 100%;
+  min-height: 10vh;
+  height: 100%;
+  max-height: 100vh;
+  overflow: hidden;
+}
+#top-image {
+  max-height: 100vh;
+  overflow: hidden;
   z-index: 0;
 }
-#img1 {
-  background: url("A1.png");
+.info {
+  display: none;
+  padding-top: 45%;
+  color: white;
+  font-family: Helvetica;
+  font-size: 1.2vw;
+  z-index: 999;
+  vertical-align: middle;
+  align-self: center;
+}
 
-}
-#img2 {
-  background: url("A2.png");
 
-}
-#img3 {
-  background: url("A3.png");
 
-}
-#img4 {
-  background: url("A4.png");
-}
 @media only screen and (max-device-width: 768px) {
 
+  [data-aos="logo-anim"].aos-animate {
+
+   -webkit-transform: scale(0.4) rotate(270deg);
+   transform: scale(0.4) rotate(270deg);
+
+  }
+  [data-aos="logo-anim"] {
+
+    top: 48%;
+
+  }
 
 
 }
