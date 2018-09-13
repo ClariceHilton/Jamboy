@@ -8,7 +8,7 @@ left: (e.pageX ) + "px"
 });
 $(".showPopUp").mouseout(function(){
 $("."+this.id).hide();
-});*/
+});
 
 jQuery(document).ready(function() {
     jQuery('.inner-circle').hover(function() {
@@ -16,4 +16,4 @@ jQuery(document).ready(function() {
     }, function() {
         jQuery(this).find('div:second').hide();
     });
-});
+});*/
