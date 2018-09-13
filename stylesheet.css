@@ -169,6 +169,12 @@ margin: 1vw;
 .social-icons:nth-child(1){
   margin-left: 28vw;
 }
+.social-icons:nth-child(3), .social-icons:nth-child(5) {
+  padding-bottom: 1vh;
+}
+.social-icons:nth-child(3){
+  width: 8vw;
+}
 #namecard {
   position:fixed;
   width: fit-content;
@@ -211,14 +217,15 @@ background: linear-gradient(90deg, rgba(94,240,240,1) 0%, rgba(210,73,143,1) 100
 
   [data-aos="logo-anim"].aos-animate {
 
-   -webkit-transform: scale(0.4) rotate(270deg);
-   transform: scale(0.4) rotate(270deg);
+   -webkit-transform: scale(0.5) rotate(270deg);
+   transform: scale(0.5) rotate(270deg);
+   left: 55%;
 
   }
   [data-aos="logo-anim"] {
 
     top: 48%;
-
+    left: 10%;
   }
   .embed-responsive {
     margin-top: -28.1%;
@@ -249,6 +256,19 @@ background: linear-gradient(90deg, rgba(94,240,240,1) 0%, rgba(210,73,143,1) 100
   }
   .social-icons:nth-child(1){
     margin-left: 19vw;
+  }
+
+  .social-icons:nth-child(3){
+    width: 15vw;
+  }
+  .inner-circle {
+    width: 40vw;
+    height: 40vw;
+    margin: 2vw;
+  }
+  img#logo {
+    width: 80%;
+
   }
 
 }
