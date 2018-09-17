@@ -142,6 +142,7 @@ display: block;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  background-repeat: no-repeat;
   background-position: center center;
   text-align: center;
   width: 100%;
