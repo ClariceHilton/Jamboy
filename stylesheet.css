@@ -44,7 +44,36 @@ body,html{min-height:200%;
 #AnotherLove {
   background-image: url("https://s3.eu-west-2.amazonaws.com/www.happycatjay.com/Albert+Gold+-+Another+Love+(Happy+Cat+Jay+Remix).png");
 }
-
+#Cycle {
+  background-image: url("https://s3.eu-west-2.amazonaws.com/www.happycatjay.com/Lunacre+-+Cycle+(Happy+Cat+Jay+Remix).png");
+}
+#Universe {
+  background-image: url("https://s3.eu-west-2.amazonaws.com/www.happycatjay.com/Sarah+Sarhandi+-+Both+Universe.jpg");
+}
+#Schtum {
+  background-image: url("https://s3.eu-west-2.amazonaws.com/www.happycatjay.com/Lunacre+-+Schtum.+EP.jpg");
+}
+#Harrison {
+  background-image: url("https://s3.eu-west-2.amazonaws.com/www.happycatjay.com/Alxndr+London+-+Harrison.png");
+}
+#Harrison {
+  background-image: url("https://s3.eu-west-2.amazonaws.com/www.happycatjay.com/Alxndr+London+-+Harrison.png");
+}
+#Shuffle {
+  background-image: url("https://s3.eu-west-2.amazonaws.com/www.happycatjay.com/Alxndr+London+-+SHUFFLE.png");
+}
+#Jupiter {
+  background-image: url("https://s3.eu-west-2.amazonaws.com/www.happycatjay.com/Alxndr+London+-+Jupiter+and+Pluto.png");
+}
+#Papaya {
+  background-image: url("https://s3.eu-west-2.amazonaws.com/www.happycatjay.com/Flamingods+-+Papaya+(Happy+Cat+Remix).jpg");
+}
+#Troupe {
+  background-image: url("https://s3.eu-west-2.amazonaws.com/www.happycatjay.com/Lunacre+-+Troupe+EP.jpg");
+}
+#Bletchley {
+  background-image: url("https://s3.eu-west-2.amazonaws.com/www.happycatjay.com/Lunacre+-+Bletchley.jpg");
+}
 .turquoise-layer {
   background-color: rgba(94, 240, 240, 0.65);
     position: absolute;
@@ -146,7 +175,7 @@ display: block;
   z-index: -1;
 }
 #wrapper {
-  background-image: url(TwistyFace.jpg);
+  background-image: url("https://s3.eu-west-2.amazonaws.com/www.happycatjay.com/Twisty+Face+Original_PINK+copy.jpg");
   -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

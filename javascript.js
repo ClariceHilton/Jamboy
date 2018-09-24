@@ -1,4 +1,7 @@
-
+function openInNewTab(url) {
+  var win = window.open(url, '_blank');
+  win.focus();
+}
 /*$(".inner-circle").mouseover(function(e){
 $("."+this.id).show();
 $("."+this.id).css({
