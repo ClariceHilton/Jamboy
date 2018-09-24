@@ -21,19 +21,28 @@ body,html{min-height:200%;
 }
 /*background images for tracks*/
 #julianknxxcl {
-  background-image: url("JulianKnxxCL.png");
+  background-image: url("https://s3.eu-west-2.amazonaws.com/www.happycatjay.com/JulianKnxx+-+Candid+Lover.png");
 }
 #rheaNight {
-  background-image: url("RHEAinthenight.png");
+  background-image: url("https://s3.eu-west-2.amazonaws.com/www.happycatjay.com/RHEA+-+In+The+Night.png");
 }
 #EfuaSmiles{
-  background-image: url("EfuaCrumbles.jpg");
+  background-image: url("https://s3.eu-west-2.amazonaws.com/www.happycatjay.com/Efua+Smiles+-+Crumbles.jpg");
 }
 #BusyIngs {
-  background-image: url("RobynBusyIngs.png");
+  background-image: url("https://s3.eu-west-2.amazonaws.com/www.happycatjay.com/Robyn+Wilton+-+All+The+Busy+Ings+(Film).png");
 }
 #RoseHips {
-  background-image: url("RoseHips.png");
+  background-image: url("https://s3.eu-west-2.amazonaws.com/www.happycatjay.com/Capeface+-+Rose+Hips+(Happy+Cat+Jay+Remix).png");
+}
+#NFsuicide {
+  background-image: url("https://s3.eu-west-2.amazonaws.com/www.happycatjay.com/JulianKnxx+-+Death+Of+A+Non-Fatal+Suicide.png");
+}
+#GFOTY{
+  background-image: url("https://s3.eu-west-2.amazonaws.com/www.happycatjay.com/Alxndr+London+-+Harrison.png");
+}
+#AnotherLove {
+  background-image: url("https://s3.eu-west-2.amazonaws.com/www.happycatjay.com/Albert+Gold+-+Another+Love+(Happy+Cat+Jay+Remix).png");
 }
 
 .turquoise-layer {
