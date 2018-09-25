@@ -216,13 +216,17 @@ opacity: 0;
   vertical-align: middle;
   align-self: center;
   color: inherit;
+  color: black;
+ -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+ -webkit-text-stroke-width: 1px;
+ -webkit-text-stroke-color: black;
 }
-.inner-circle:nth-child(even) {
+/*.inner-circle:nth-child(even) {
     color: rgb(94, 240, 240);
 }
 .inner-circle:nth-child(odd) {
     color: rgb(210, 73, 143);
-}
+}*/
 #social-icons {
   margin: auto;
   position: absolute;
