@@ -81,10 +81,10 @@ body,html{min-height:200%;
     height: inherit;
     border-radius: 50%;
     z-index: 1000;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 0.25s ease-in-out;
+    -moz-transition: opacity 0.25s ease-in-out;
+    -o-transition: opacity 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out;
 }
 .pink-layer {
   background-color: rgba(210, 73, 143, 0.8);
@@ -93,25 +93,25 @@ body,html{min-height:200%;
     height: inherit;
     border-radius: 50%;
     z-index: 1000;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 0.25s ease-in-out;
+    -moz-transition: opacity 0.25s ease-in-out;
+    -o-transition: opacity 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out;
 }
 div.turquoise-layer:hover {
   opacity : 0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -o-transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
 
 }
 div.pink-layer:hover {
   opacity : 0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -o-transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
 
 }
 .turquoise-layer:hover ~ .info  { opacity: 0;}
@@ -172,9 +172,9 @@ img#logo {
   height: 27vw;
   margin: 1.6vw;
   background-size: contain;
-  -webkit-transition: 0.1s ease-out;
-   -moz-transition: 0.1s ease-out;
-   -o-transition: 0.1s ease-out;
+  -webkit-transition: 0.25s ease-out;
+   -moz-transition: 0.25s ease-out;
+   -o-transition: 0.25s ease-out;
 }
 
 div.inner-circle:hover{
@@ -185,10 +185,10 @@ div.inner-circle:hover{
 }
 .inner-circle:hover .info{
 opacity: 1;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -o-transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
 }
 #wrapper2 {
   background: linear-gradient(0deg, rgba(94,240,240,1) 0%, rgba(210,73,143,1) 100%);
@@ -215,10 +215,10 @@ opacity: 1;
 }
 [data-aos="background-anim"] {
 opacity: 1;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -o-transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
 }
 
 [data-aos="background-anim"].aos-animate {
@@ -238,10 +238,10 @@ opacity: 0;
     transform: translateY(-50%);
     radius: 10%;
     border-radius: 5%;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 0.25s ease-in-out;
+    -moz-transition: opacity 0.25s ease-in-out;
+    -o-transition: opacity 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out;
 
   font-size: 1vw;
   z-index: 999;
