@@ -80,6 +80,7 @@ body,html{min-height:200%;
     width: inherit;
     height: inherit;
     border-radius: 50%;
+    z-index: 1000;
 }
 .pink-layer {
   background-color: rgba(210, 73, 143, 0.65);
@@ -87,6 +88,7 @@ body,html{min-height:200%;
     width: inherit;
     height: inherit;
     border-radius: 50%;
+    z-index: 1000;
 }
 div.turquoise-layer:hover {
   opacity : 0;
@@ -96,6 +98,7 @@ div.pink-layer:hover {
   opacity : 0;
 
 }
+..turquoise-layer:hover ~ .info  { opacity: 0;}
 img#logo {
   width: 70%;
 
@@ -210,23 +213,28 @@ opacity: 0;
 }
 .info {
   display: none;
-  padding-top: 45%;
-  font-size: 1.5vw;
+  margin-right: 2%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    radius: 10%;
+    margin-left: 2%;
+
+
+  font-size: 1.3vw;
   z-index: 999;
   vertical-align: middle;
   align-self: center;
-  color: inherit;
-  color: black;
- -webkit-text-fill-color: white; /* Will override color (regardless of order) */
- -webkit-text-stroke-width: 1px;
- -webkit-text-stroke-color: black;
+
 }
-/*.inner-circle:nth-child(even) {
-    color: rgb(94, 240, 240);
+.turquoise-layer ~ .info {
+    color: rgb(94, 240, 240)!important;
+    background-color: rgba(210, 73, 143, 0.4)!important;
 }
-.inner-circle:nth-child(odd) {
-    color: rgb(210, 73, 143);
-}*/
+.pink-layer ~ .info {
+    color: rgb(210, 73, 143)!important;
+    background-color: rgba(94, 240, 240, 0.4)!important;
+}
 #social-icons {
   margin: auto;
   position: absolute;
