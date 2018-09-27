@@ -75,7 +75,7 @@ body,html{min-height:200%;
   background-image: url("https://s3.eu-west-2.amazonaws.com/www.happycatjay.com/Lunacre+-+Bletchley.jpg");
 }
 .turquoise-layer {
-  background-color: rgba(94, 240, 240, 0.65);
+  background-color: rgba(94, 240, 240, 0.8);
     position: absolute;
     width: inherit;
     height: inherit;
@@ -83,7 +83,7 @@ body,html{min-height:200%;
     z-index: 1000;
 }
 .pink-layer {
-  background-color: rgba(210, 73, 143, 0.65);
+  background-color: rgba(210, 73, 143, 0.8);
     position: absolute;
     width: inherit;
     height: inherit;
@@ -213,12 +213,11 @@ opacity: 0;
 }
 .info {
   display: none;
-  margin-right: 2%;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
     radius: 10%;
-    margin-left: 2%;
+    border-radius: 5%;
 
 
   font-size: 1.3vw;
@@ -229,11 +228,11 @@ opacity: 0;
 }
 .turquoise-layer ~ .info {
     color: rgb(94, 240, 240)!important;
-    background-color: rgba(210, 73, 143, 0.4)!important;
+    background-color: rgba(210, 73, 143, 1)!important;
 }
 .pink-layer ~ .info {
     color: rgb(210, 73, 143)!important;
-    background-color: rgba(94, 240, 240, 0.4)!important;
+    background-color: rgba(94, 240, 240, 1)!important;
 }
 #social-icons {
   margin: auto;
