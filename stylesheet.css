@@ -342,10 +342,10 @@ background: linear-gradient(0deg, rgba(94,240,240,1) 0%, rgba(210,73,143,1) 50%,
     width: 15vw;
   }
   .inner-circle {
-    width: 90vw;
-    height: 90vw;
+    width: 85vw;
+    height: 85vw;
     margin-left: 5vw;
-    margin-right: 5vw;
+    margin-right: 10vw;
   }
   img#logo {
     width: 80%;
