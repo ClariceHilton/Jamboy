@@ -164,6 +164,7 @@ img#logo {
 
 /* Shape inside */
 .inner-circle {
+  overflow: hidden;
   text-align: center;
   border-radius: 50%;
   float: left;
@@ -232,6 +233,7 @@ opacity: 0;
   z-index: 0;
 }
 .info {
+  line-height: 2.2vh;
   opacity: 0;
     position: relative;
     top: 50%;
@@ -243,7 +245,7 @@ opacity: 0;
     -o-transition: opacity 1s ease-in-out;
     transition: opacity 1s ease-in-out;
 
-  font-size: 1.3vw;
+  font-size: 1vw;
   z-index: 999;
   vertical-align: middle;
   align-self: center;
@@ -340,25 +342,23 @@ background: linear-gradient(0deg, rgba(94,240,240,1) 0%, rgba(210,73,143,1) 50%,
     width: 15vw;
   }
   .inner-circle {
-    width: 40vw;
-    height: 40vw;
-    margin: 2vw;
+    width: 90vw;
+    height: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
   img#logo {
     width: 80%;
 
   }
-  .info {
-    display: block;
-  }
   .turquoise-layer {
-    background-color: rgba(94, 240, 240, 0.4);
+    background-color: rgba(94, 240, 240, 0.2);
   }
 .pink-layer {
-  background-color: rgba(210, 73, 143, 0.4);
+  background-color: rgba(210, 73, 143, 0.2);
 }
 .info {
-  font-size: 2.8vw;
-  padding-top: 35%;
+  font-size: 3vw;
+opacity: 1;
 }
 }
