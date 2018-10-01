@@ -13,13 +13,19 @@ https://vestride.github.io/Shuffle/compound-filters
     src: url("TrajanPro-Regular.ttf");
 }
 /* index css*/
-body,html{min-height:200%;
+body,html{
+  min-height:200%;
   margin:0;
   padding:0;
   overflow: scroll;
   font-family: "Trajan";
 }
-/*background images for tracks*/
+#HCJBlameGame {
+  background-image: url("https://s3.eu-west-2.amazonaws.com/www.happycatjay.com/Blame+Game_Text2_mix3_Medium_IG.jpg");
+}
+#PistolsAtDawn {
+  background-image: url("https://s3.eu-west-2.amazonaws.com/www.happycatjay.com/Cameron+Turnbull+-+Pistols+At+Dawn+(Film).png");
+}
 #julianknxxcl {
   background-image: url("https://s3.eu-west-2.amazonaws.com/www.happycatjay.com/JulianKnxx+-+Candid+Lover.png");
 }
